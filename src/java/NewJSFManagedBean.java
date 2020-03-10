@@ -23,6 +23,7 @@ import javax.faces.bean.ManagedBean;
  
 public class NewJSFManagedBean {
      
+     
     private int id;
     private String name;
     /**
