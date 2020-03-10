@@ -1,6 +1,6 @@
 
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
+ import javax.faces.bean.SessionScoped;
 
 
  
@@ -19,8 +19,10 @@ import javax.faces.bean.SessionScoped;
  */
  @ManagedBean(name = "bean")
  @SessionScoped
+ 
+ 
 public class NewJSFManagedBean {
-
+     
     private int id;
     private String name;
     /**
